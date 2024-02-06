@@ -1,0 +1,9 @@
+def fact(n):
+  if(n>0):
+    return n*fact((n-1))
+  else:
+    return 1
+
+
+x = int(input("Enter a number: "))
+print("The factorial of", x, "is", fact(x))
